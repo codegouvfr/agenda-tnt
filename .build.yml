@@ -1,0 +1,23 @@
+image: debian/testing
+packages:
+  - emacs
+  - rsync
+sources:
+  - https://git.savannah.gnu.org/git/emacs/org-mode.git
+  - https://git.sr.ht/~bzg/ox-html-timeline
+secrets:
+  - 7a38e4c8-2b08-446e-a478-2a114a50db86
+tasks:
+  - install: |
+      cd org-mode
+      git checkout bugfix
+      make autoloads
+      cd ../agenda-tnt
+      ./publish.sh
+  - upload: |
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av orgweb/* bzg.fr:/home/build/agenda-tnt/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av org-mode/upload/* bzg.fr:/home/build/agenda-tnt/
+triggers:
+  - action: email
+    condition: failure
+    to: ~bzg/org-build-failures@lists.sr.ht
