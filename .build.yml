@@ -11,7 +11,7 @@ tasks:
       cd agenda-tnt
       ./publish.sh
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av agenda-tnt/agenda/* web@code.gouv.fr:/home/web/websites/agenda-tnt/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av agenda-tnt/agenda/* web@code.gouv.fr:/home/web/websites/code.gouv.fr_home/preproduction/agenda-tnt/
 triggers:
   - action: email
     condition: failure
