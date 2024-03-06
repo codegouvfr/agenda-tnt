@@ -5,13 +5,13 @@ packages:
 sources:
   - https://git.sr.ht/~bzg/ox-html-timeline
 secrets:
-  - 7a38e4c8-2b08-446e-a478-2a114a50db86
+  - bdd50953-add5-4ddb-9f34-9f0781900b7e
 tasks:
   - publish: |
       cd agenda-tnt
       ./publish.sh
   - upload: |
-      rsync -e "ssh -o StrictHostKeyChecking=no" -av agenda-tnt/agenda/* bzg.fr:/home/build/agenda-tnt/
+      rsync -e "ssh -o StrictHostKeyChecking=no" -av agenda-tnt/agenda/* web@code.gouv.fr:/home/web/websites/agenda-tnt/
 triggers:
   - action: email
     condition: failure
