@@ -2,9 +2,8 @@
 
 ":"; exec emacs --quick --script "$0" -- "$@" # -*- mode: emacs-lisp; lexical-binding: t; -*-
 
-(add-to-list 'load-path "~/org-mode/lisp/")
-(add-to-list 'load-path "~/ox-html-timeline/")
 (require 'org)
+(add-to-list 'load-path "~/ox-html-timeline/")
 (require 'ox-html-timeline)
 
 (setq make-backup-files nil debug-on-error t)

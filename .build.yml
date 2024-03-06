@@ -3,7 +3,6 @@ packages:
   - emacs
   - rsync
 sources:
-  - https://git.savannah.gnu.org/git/emacs/org-mode.git
   - https://git.sr.ht/~bzg/ox-html-timeline
 secrets:
   - 7a38e4c8-2b08-446e-a478-2a114a50db86
