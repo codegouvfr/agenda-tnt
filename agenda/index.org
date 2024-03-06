@@ -1,6 +1,6 @@
-#+title: From LOGO to Sugarizer
-#+lang: en
-#+description: A timeline to demonstrate ox-html-timeline.el
+#+title: Agenda TNT
+#+lang: fr
+#+description: Un essai d'agenda pour la mission TNT
 
 * Header
 
@@ -8,7 +8,7 @@
 
 From Papert’s LOGO to Lionel Laske’s http://sugarizer.org.
 
-* Seymour Papert creates LOGO
+* Un événement
   :PROPERTIES:
   :data-category: Software
   :icon-color: green
