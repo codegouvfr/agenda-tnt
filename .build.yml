@@ -7,11 +7,7 @@ sources:
 secrets:
   - 7a38e4c8-2b08-446e-a478-2a114a50db86
 tasks:
-  - install: |
-      cd org-mode
-      git checkout bugfix
-      make autoloads
-      cd ../agenda-tnt
+  - publish: |
       ./publish.sh
   - upload: |
       rsync -e "ssh -o StrictHostKeyChecking=no" -av agenda/* bzg.fr:/home/build/agenda-tnt/
