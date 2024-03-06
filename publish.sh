@@ -16,5 +16,5 @@
       (message "[exporting] %s" org-file)
       (with-current-buffer (find-file-noselect org-file)
         (condition-case err
-            (org-html-timeline-export-as-html-timeline)
+            (org-html-timeline-export-to-html-timeline)
           (error (message (error-message-string err))))))))
