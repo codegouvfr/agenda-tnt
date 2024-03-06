@@ -6,8 +6,6 @@
 (add-to-list 'load-path "~/ox-html-timeline/")
 (require 'ox-html-timeline)
 
-(setq make-backup-files nil debug-on-error t)
-
 (dolist (org-file (directory-files-recursively "." "\\.org$"))
   (let ((html-file (file-name-with-extension org-file "html")))
     (if (and (file-exists-p html-file)
