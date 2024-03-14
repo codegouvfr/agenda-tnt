@@ -1,6 +1,6 @@
 # Présentation
 
-Essai pour un outil remplaçant [l'agenda TNT actuel](https://www.preceden.com/timelines/815004-agenda-de-la-transformation-num-rique-des-collectivit-s-territoriales-2018-2024?style=0).
+Ce dépôt propose un essai pour un outil remplaçant [l'agenda TNT actuel](https://www.preceden.com/timelines/815004-agenda-de-la-transformation-num-rique-des-collectivit-s-territoriales-2018-2024?style=0).
 
 ## Licences
 
