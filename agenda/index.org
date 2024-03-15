@@ -11,7 +11,7 @@ From Papert’s LOGO to Lionel Laske’s http://sugarizer.org.
 * Un événement
   :PROPERTIES:
   :data-category: Software
-  :icon-color: green
+  :icon-color: red
   :fa-icon: fa-plus
   :image-src: https://upload.wikimedia.org/wikipedia/commons/2/2c/Remi_turtlegrafik.png
   :image-caption: Example of the output a LOGO program
@@ -28,7 +28,7 @@ that were primarily numbers, not graphics or logic, oriented.
 
 Source : https://en.wikipedia.org/wiki/Logo_%28programming_language%29
 
-* Alan Kay présente le concept de Dynabook
+* Un autre événement
   :PROPERTIES:
   :data-category: Software
   :icon-color: green
@@ -52,7 +52,7 @@ Dynabook, but the target audience was children.
 
 Source : https://en.wikipedia.org/wiki/Dynabook
 
-* Smalltalk’s invention
+* Encore un autre
   :PROPERTIES:
   :data-category: Language
   :icon-color: green
