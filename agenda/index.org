@@ -52,7 +52,7 @@ Dynabook, but the target audience was children.
 
 Source : https://en.wikipedia.org/wiki/Dynabook
 
-* Encore un autre
+* Un dernier
   :PROPERTIES:
   :data-category: Language
   :icon-color: green
