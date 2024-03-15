@@ -18,13 +18,11 @@ From Papert’s LOGO to Lionel Laske’s http://sugarizer.org.
   :date: <1967-01-01 dim.>
   :END:
 
-#+BEGIN_QUOTE
 Logo is an educational programming language, designed in 1967 by Wally
 Feurzeig, Seymour Papert and Cynthia Solomon.[1] "Logo" is not an
 acronym. It was derived from the Greek logos meaning word or "thought"
 by Feurzeig,[2] to distinguish itself from other programming languages
 that were primarily numbers, not graphics or logic, oriented.
-#+END_QUOTE
 
 Source : https://en.wikipedia.org/wiki/Logo_%28programming_language%29
 
